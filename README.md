@@ -13,7 +13,7 @@
 
 ### Pre-requirements
 * READ README, PLEASE!
-* Install [libraries]("/libraries")
+* Install **[libraries](/libraries)**
 * Set transmitter's channel 5 source as `SwC`;
 * Other channels have to be attached to their default sources.
 

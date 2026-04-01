@@ -26,6 +26,8 @@ Trema modules' jumpers have to be set in `VIN` state to work with 12V input prov
 
 If you use trema set shield to build the assembly, use the 1st field for a motor driver attached to a gear motor, 2nd field for an ibus receiver and other fields for motor drivers attached to linear actuators.
 
+Please use reduction gears to reduce gear motor's rotation speed if you will use `90RPM` version.
+
 That's it 🐳
 
 

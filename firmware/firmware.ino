@@ -1,19 +1,19 @@
 #include <IBusBM.h>
 
-#define SPEED_1      2
-#define DIR_1        A2
+#define SPEED_1      2    // linear actuator pins
+#define DIR_1        A2   // -- // --
 
-#define SPEED_2      3
-#define DIR_2        9
+#define SPEED_2      3    // -- // --
+#define DIR_2        9    // -- // --
 
-#define SPEED_3      11
-#define DIR_3        13
+#define SPEED_3      11   // -- // --
+#define DIR_3        13   // -- // --
 
-#define SPEED_4      A3
-#define DIR_4        5
+#define SPEED_4      A3   // -- // --
+#define DIR_4        5    // -- // --
 
-#define SPEED_5      6
-#define DIR_5        10
+#define SPEED_5      6    // gear motor pins
+#define DIR_5        10   // -- // --
 
 IBusBM bus {};
 
@@ -29,9 +29,6 @@ float R_stick_Y_map = 0;
 
 float L_stick_X_map = 0;
 float L_stick_Y_map = 0;
-
-// swc state (0 or 1 depends on switch position)
-float SWC_state = 0;
 
 /**
 * Converts iBus input from [1000 -> 2000] to [-1 -> 1].

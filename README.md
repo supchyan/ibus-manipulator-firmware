@@ -12,7 +12,7 @@
 * Gear motor (V12, 90RPM) x1
 
 ### Pre-requirements
-* READ README, PLEASE!
+* *READ README, PLEASE!*
 * Install **[libraries](/libraries)**
 * Set transmitter's channel 5 source as `SwC`;
 * Other channels have to be attached to their default sources.
@@ -20,9 +20,9 @@
 ### Additional info
 iBus receiver sends data signals over RX0 pin, so make sure to plug or unplug it during/after/before flashing the firmware through serial.
 
-6, 10 pins are reserved by gear motor since only they can smoothly control transmitter's input. Other pins operates with a discrete input.
+6, 10 pins are reserved by a gear motor since only they can smoothly control transmitter's input in this firmware. FYI, other pins operates with a discrete input.
 
-Trema modules' jumpers have to be set in VIN state to work with 12V input provided by a power shield.
+Trema modules' jumpers have to be set in `VIN` state to work with 12V input provided by a power shield.
 
 If you use trema set shield to build the assembly, use the 1st field for a motor driver attached to a gear motor, 2nd field for an ibus receiver and other fields for motor drivers attached to linear actuators.
 

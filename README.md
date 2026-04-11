@@ -2,9 +2,7 @@
 > This firmware is for Arduino UNO family.
 
 ### FigmaJam
-You can check my FigmaJam datasheet if you're facing problems during assemble process
-
-https://www.figma.com/board/U4yI7styq8ZvTP2rYX11op/ibus-manipulator-scheme?node-id=0-1&t=ljdsvXyMS1a3O3Mi-1
+You can check my [FigmaJam Datasheet](https://www.figma.com/board/U4yI7styq8ZvTP2rYX11op/ibus-manipulator-scheme?node-id=0-1&t=ljdsvXyMS1a3O3Mi-1) if you're facing problems during assemble process.
 
 ### Assembly list
 * Receiver FLYSKY FS-IA6B
